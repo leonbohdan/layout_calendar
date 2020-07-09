@@ -22,6 +22,7 @@ body {
   margin: 0 auto;
   height: 100vh;
   width: $cell-side * 7 + $cell-gap * 7;
+
   div {
     display: none;
     align-items: center;
@@ -34,6 +35,7 @@ body {
     border: $cell-border;
     transition-duration: 0.5s;
     cursor: pointer;
+
     &:hover {
       background: $cell-background_hovered;
       position: relative;
